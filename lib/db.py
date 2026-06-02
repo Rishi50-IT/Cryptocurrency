@@ -7,7 +7,7 @@ load_dotenv()
 
 @lru_cache(maxsize=1)
 def get_client() -> MongoClient:
-    uri = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+    uri = os.getenv("MONGO_URI", "mongodb+srv://Rishi_Munda:Rahul124%40@cluster0.dod06ln.mongodb.net/?appName=Cluster0")
     return MongoClient(uri, serverSelectionTimeoutMS=3000)
 
 def get_db():
