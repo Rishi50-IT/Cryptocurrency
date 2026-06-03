@@ -37,7 +37,7 @@ st.header("CryptoPredictor – AI-Powered Cryptocurrency Analytics Platform")
 
 
 st.markdown("**CryptoPredictor is a modern cryptocurrency analytics and prediction platform built with Streamlit, Machine Learning, MongoDB, and real-time market data APIs. The platform helps traders and investors monitor market trends, analyze cryptocurrency performance, manage portfolios, and generate AI-based price forecasts through an interactive dashboard.**")
-img = Image.open("cry.png", mode="r")
+img = Image.open("cry.png")
 
 # Width same, height smaller
 img = img.resize((1600, 600))
