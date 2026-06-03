@@ -62,6 +62,5 @@ st.markdown("""### Tech Stack:
 - **APIs**: CoinGecko API for fetching real-time cryptocurrency market data.
 - **Deployment**: Local deployment and Streamlit cloud deployment with Streamlit, with potential for future cloud deployment.""")
 if st.button("Login"):
-     
-     st.switch_page("pages/Login.py")
+    st.switch_page("pages/Login.py")
    
